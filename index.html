@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeSaver Blood Bank</title>
+    <!-- Css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Lexend+Giga:wght@500&family=Rye&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Bungee+Spice&family=Caveat&family=Lexend+Giga:wght@500&family=Nanum+Myeongjo&family=Rye&display=swap" rel="stylesheet">
+</head>
+<body>
+   <section id="top123" class="bg-danger">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+                    <a id="logo1" class="navbar-brand mr-5" href="#" style="font-family: 'Caveat', cursive; font-size: 35px;">LifeSaver Blood Bank</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./campaign.php">Campaign</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#donation_process">Process</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#gallary">Gallary</a>
+                    </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./search.php">Search</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contact_us">Contact</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Login / Register
+                        </a>
+                        <div class="dropdown-menu bg-danger" aria-labelledby="navbarDropdown">
+                         <a class="dropdown-item bg-danger text-light" href="./admin2/index.php">Admin Login</a>
+                         <a class="dropdown-item bg-danger text-light" href="./new_doner_register.php">Doner Registration</a>
+                        </div>
+                      </li>
+                      </ul>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <section id="home">
+    <div class="container">
+        <div class="row" style="height: 100vh;">
+            <div class="col-12 col-lg-6">
+                <h2 class="mt-5 pt-5 text-center text-danger" id="title1" style="font-family:'Secular One', sans-serif; font-size: 70px;font-weight: bolder;"> <span>Be a Lifesaver,</span> <br><span class="ml-5"> Donate Blood</span></h2>
+                <p id="para1" style="font-family:'Secular One', sans-serif; font-size: 20px;line-height: 30px;"><span class="h3">B</span>lood donation is a selfless act of kindness that can make a significant impact on someone's life. It's a simple process that takes only about an hour, and one donation can help up to three people. Donating blood is safe, and donors receive a free health screening. Anyone who is in good health and meets the requirements can donate, and blood donation centers always need more donors. Be a lifesaver, donate blood and help save lives.</p>
+            </div>
+            <div class="col-12 col-lg-6">
+                <img src="assets/blood_donate.jpg" class="h-75 w-100" id="img1" alt="">
+            </div>
+        </div>
+    </div>
+   </section>
+  
+   <section id="about" class="bg-light pb-5 pt-5">
+    <div class="container mb-5  bg-light">
+      <h1 class="text-center text-danger mb-5 pb-5">ABOUT US</h1>
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="./assets/blood_donation.jpg" style="height: 400px !important;" class="h-100 w-100" alt="">
+        </div>
+        <div class="col-lg-6">
+          <h2 id="about_us" class="text-center text-danger mt-5">About us</h2>
+          <P class="text-center h4"><span class="h4">W</span>e LifeSaver Blood Bank at ABC West, Ahmednagar, Maharashtra. Our aim is Collect, store, and distribute safe blood and blood products for transfusion and medical procedures to those in need. We contribute in saving many lives in the time of need or in emergency.</P>
+        </div>
+        <div id="btn_upword" style="position: fixed;bottom: 10px;right: 0px;z-index: 99999;">
+          <a href="#top123"><i class="fas fa-arrow-alt-circle-up h2 mt-2 text-dark"></i></a>
+        </div>
+      </div>
+    </div>
+   </section>
+
+   <section id="services" class="pt-2 pb-3">
+    <div class="container">
+      <h1 class="text-danger text-center pt-5 mb-5">SERVICES</h1>
+      <div class="row">
+        <div class="col-12 col-sm-6 col-lg-4 mt-5">
+          <div class="card shadow h-100 w-100">
+            <div class="card-header p-0 m-0">
+              <img src="./assets/blood_storage.jpg" class="h-100 w-100" alt="">
+            </div>
+            <div class="card-body border-0">
+              <h3 class="text-danger">Blood Storage</h3>
+              <p>We store the safes blood of all blood groups which you can use for any kind of treatmet or in an emergency.</p>
+              <center>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-danger rounded"data-toggle="modal" data-target="#staticBackdrop">View</button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./assets/blood_storage.jpg" class="h-100 w-100" alt="">
+                    </div>
+                    <div class="modal-body text-left">
+                      <p class="text-dark"><span class="h5">What are the components of blood storage?</span><br>
+                        The transfusable components that can be derived from donated blood are red cells, platelets, plasma, cryoprecipitated AHF (cryo), and granulocytes. An additional component, white cells, is often removed from donated blood before transfusion.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </center>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 mt-5">
+          <div class="card shadow h-100 w-100">
+            <div class="card-header p-0 m-0">
+              <img src="./assets/testtube2.jpg" class="h-100 w-100" alt="">
+            </div>
+            <div class="card-body border-0">
+              <h3 class="text-danger">Blood Donation</h3>
+              <p>Donation of blood is an selfless service that we do for mankind! We allow you to save a life by donating blood to the ones who need it.</p>
+              <center>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-danger rounded"data-toggle="modal" data-target="#staticBackdrop1">View</button>
+  
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop1" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <img src="./assets/testtube2.jpg" class="h-100 w-100" alt="">
+                      </div>
+                      <div class="modal-body text-left">
+                        <p class="text-dark"><span class="h5">Who are Eligible to Donate Blood?</span><br>
+                          <ol class="text-dark">
+                            <li>Age between 18 and 60 years.</li>
+                            <li>Haemoglobin - not less than 12.5 g/Dl.</li>
+                            <li>Pulse - between 50 and 100/minute with no irregularities.</li>
+                            <li>Blood Pressure -Systolic 100-180 mm Hg and Diastolic 50 - 100 mm Hg.</li>
+                            <li>Temperature - Normal (oral temperature not exceeding 37.50C)</li>
+                          </ol>
+                          </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </center>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 mt-5">
+          <div class="card shadow h-100 w-100">
+            <div class="card-header p-0 m-0">
+              <img src="./assets/blood_cell.jpg" class="h-100 w-100" alt="">
+            </div>
+            <div class="card-body border-0">
+              <h3 class="text-danger">Red Blood Cell</h3>
+              <p>Lowering in the count of red blood cells could be dangerous. We also provide red blood cells for various treatments</p>
+              <center>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-danger rounded"data-toggle="modal" data-target="#staticBackdrop12">View</button>
+  
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop12" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <img src="./assets/blood_cell.jpg" class="h-100 w-100" alt="">
+                      </div>
+                      <div class="modal-body text-left">
+                        <p class="text-dark"><span class="h5"> What are red blood cells?</span><br>
+                          Red blood cells, also known as erythrocytes, deliver oxygen to the tissues in your body. Oxygen turns into energy and your tissues release carbon dioxide. Your red blood cells also transport carbon dioxide to your lungs for you to exhale.
+                          </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </center>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+   
+   <section id="donation_process" class="bg-light pb-5">
+    <div class="container">
+      <h1 class="text-center text-danger mt-5 pt-5 mb-5">DONATION PROCESS</h1>
+      <div class="row">
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card border-0">
+            <div class="card-header p-0">
+              <img src="./assets/donate1.jpg" class="h-100 w-100" alt="">
+            </div>
+            <div class="card-footer bg-light">
+              <a href="./new_doner_register.php"><center><button class="btn btn-lg btn-danger">1.Registration</button></center></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card border-0">
+            <div class="card-header p-0">
+              <img src="./assets/donate2.jpg" class="h-100 w-100" alt="">
+            </div>
+            <div class="card-footer bg-light">
+              <center>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-lg btn-danger rounded"data-toggle="modal" data-target="#staticBackdrop1234">2.Seeing</button>
+  
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop1234" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <iframe width="100%" height="515" src="https://www.youtube.com/embed/ZogdirPLR7o?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </center>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card border-0">
+            <div class="card-header p-0">
+              <img src="./assets/donate3.jpg" class="h-100 w-100" alt="">
+            </div>
+            <div class="card-footer bg-light">
+              <center>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-lg btn-danger rounded"data-toggle="modal" data-target="#staticBackdrop12345">3.Donation</button>
+  
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop12345" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <iframe width="100%" height="515" src="https://www.youtube.com/embed/Tfwq_vJHwT8?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </center>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card border-0">
+            <div class="card-header p-0">
+              <img src="./assets/donate4.jpg" class="h-100 w-100" alt="">
+            </div>
+            <div class="card-footer bg-light">
+              <center>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-lg btn-danger rounded"data-toggle="modal" data-target="#staticBackdrop22">4.Save Life</button>
+  
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop22" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <iframe width="100%" height="515" src="https://www.youtube.com/embed/DRcU8QVOsos?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </center>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+
+
+
+   <section id="why_donate">
+    <div class="container mb-5">
+      <h1 class="text-center text-danger mt-5 pt-5 mb-5">WHY DONATE BLOOD ?</h1>
+      <div class="row">
+        <div class="col-lg-6">
+          <h2 id="about_us" class="text-center text-danger">We Donate Blood Because,</h2>
+          <P class="text-center h5"><span class="h4">E</span>veryday, there are many emergency cases or other treatments that are require blood. But unfotunately, the requirement of blood is exponentially more than its supply. This, at times, leads to loss of life. An act of kindness and selfless service of donating blood can make a big difference and save difference and save someone life.</P>
+        </div>
+        <div class="col-lg-6">
+          <img src="./assets/blood_pauch.jpg" class="h-100 w-100" alt="">
+        </div>
+      </div>
+    </div>
+   </section>0
+
+
+   <section id="gallary" class="bg-light pb-3">
+    <div class="container mt-5 mb-5">
+      <h1 class="text-center text-danger mt-5 pt-5 mb-5">GALLARY</h1>
+      <div class="row">
+        <div class="col-lg-3 mt-4">
+          <div class="card">
+            <div id="gbgimg1">
+              <div class="frontdiv"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mt-4">
+          <div class="card">
+            <div id="gbgimg2">
+              <div class="frontdiv"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mt-4">
+          <div class="card">
+            <div id="gbgimg3">
+              <div class="frontdiv"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mt-4">
+          <div class="card">
+            <div id="gbgimg4">
+              <div class="frontdiv"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mt-4">
+          <div class="card">
+            <div id="gbgimg5">
+              <div class="frontdiv"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mt-4">
+          <div class="card">
+            <div id="gbgimg6">
+              <div class="frontdiv"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mt-4">
+          <div class="card">
+            <div id="gbgimg7">
+              <div class="frontdiv"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mt-4">
+          <div class="card">
+            <div id="gbgimg8">
+              <div class="frontdiv"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 mt-4">
+          <div class="card">
+            <iframe height="315" src="https://www.youtube-nocookie.com/embed/M5ADyLmmoIc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-lg-6 mt-4">
+          <div class="card">
+            <iframe  height="315" src="https://www.youtube-nocookie.com/embed/Dahn1KEv4FE?start=12" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+
+
+   <section id="contact_us" class=" pb-3">
+    <div class="container mt-5 mb-5">
+      <h1 class="text-center text-danger mt-5 pt-5 mb-5">CONTACT US<h1>
+      <div class="row">
+        <div class="col-lg-6 p-5">
+          <div class="row">
+            <div class="col-1">
+              <i class='fa fa-map text-danger' style='font-size:36px'></i>
+             </div>
+             <div class="col-11 text-danger mt-2"><h4>Our Address :</h4>
+              <h6 class="ml-2">ABC complex, 2nd floor, ABC road, Ahmednagar, Maharashtra 414002</h6>
+          </div>
+          <br>
+          <br>
+          <div class="col-1 mt-3">
+            <i class='fa fa-envelope text-danger' style='font-size:36px'></i>
+           </div>
+           <div class="col-11 text-danger mt-2 mt-4"><h4>Email :</h4>
+            <h6 class="ml-2">lifesaverbloodbank@gmail.com</h6>
+        </div>
+          <br>
+          <br>
+        <div class="col-1">
+          <i class='fa fa-phone text-danger' style='font-size:36px'></i>
+         </div>
+         <div class="col-11 text-danger mt-2"><h4>Call US :</h4>
+          <h6 class="ml-2">xxxxxxxxxx</h6>
+      </div>
+        <br>
+        <br>
+      <div class="col-1">
+          <i class='fa fa-clock-o text-danger' style='font-size:36px'></i>
+        </div>
+        <div class="col-11 text-danger mt-2"><h4>Our Time :</h4>
+          <h6 class="ml-2">Mon - Sun 24/7</h6>
+      </div>
+          </div>
+        </div>
+        <div class="col-lg-6 p-5">
+         <form action="./save_request.php" method="POST">
+          <div class="col-12">
+            <input type="text" class="form-control" name="name" placeholder="Your Name">
+          </div>
+          <br>
+          <div class="col-12">
+            <input type="text" class="form-control" name="email" placeholder="Your Email">
+          </div>
+          <br>
+          <div class="col-12">
+            <input type="text" class="form-control" name="mobile" placeholder="Your Contact no.">
+          </div>
+          <br>
+          <div class="col-12">
+            <textarea type="text" class="form-control" name="msg" placeholder="Your Massage"></textarea>
+          </div>
+          <br>
+          <center><button class="btn btn-danger">Submit</button></center>
+         </form>
+        </div>
+        <div class="col-12">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d84083.75012024652!2d74.68016894846697!3d19.104915906180654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sblood%20bank%20ahmednagar!5e0!3m2!1sen!2sin!4v1683468692316!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+   </section>
+   <!-- <section>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body shadow">
+                        <h2>Benefites of blood donation :</h2>
+                        <ol>
+                            <li>The life-saving benefits of blood donation</li>
+                            <li>How blood donation helps patients with medical conditions</li>
+                            <li>The importance of regular blood donations in maintaining a steady blood supply</li>
+                            <li>The positive effects of blood donation on the donor's health</li>
+                            <li>The role of blood donation in emergency situations</li>
+                            <li>The impact of blood donation on the community</li>
+                            <li>Blood donation as a way to give back and make a difference</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6"></div>
+        </div>
+    </div>
+   </section> -->
+   <footer class="bg-danger">
+    <div class="container">
+      <div class="row bg-danger text-light">
+        <div class="col-lg-6">
+          <ul style="list-style-type: none;" class="mt-3">
+            <li><span class="h6">Contact us</span></li>
+            <li><span class="h6">Address</span> : ABC complex, 2nd floor, ABC road, Ahmednagar, Maharashtra 414002</li>
+            <li><span class="h6">Email</span> : lifesaverbloodbank@gmail.com</li>
+            <li><span class="h6">Website</span> : lifesaver.com</li>
+          </ul>
+        </div>
+        <div class="col-lg-6 text-center p-4" style="margin-top: -40px;">
+          <button class="btn btn-danger ml-5 btn-lg"><i class="fa fa-facebook "></i></button>
+          <button class="btn btn-danger ml-5 btn-lg"><i class="fa fa-whatsapp "></i></button>
+          <button class="btn btn-danger ml-5 btn-lg"><i class="fa fa-youtube "></i></button>
+          <button class="btn btn-danger ml-5 btn-lg"><i class="fa fa-instagram "></i></button>
+          <br>
+          <h6 class="ml-4 mt-4">Copyright © Jp'sTech.com | All right reserved.</h6>
+        </div>
+      </div>
+    </div>
+   </footer>
+</body>
+</html>
